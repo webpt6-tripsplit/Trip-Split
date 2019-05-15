@@ -1,3 +1,6 @@
+* {
+  font-family: 'Work Sans', sans-serif;
+}
 body {
   background-image: linear-gradient(to right, #9712bc, #9e11c5, #a50fce, #ac0dd8, #b30be1);
   color: white;
@@ -50,4 +53,5 @@ header h1.intro {
 }
 #main {
   background-color: white;
+  color: black;
 }
