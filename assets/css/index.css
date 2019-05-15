@@ -10,17 +10,6 @@ body #wrapper {
   max-width: calc(100% - 4em);
   margin: 0 auto;
 }
-@media (max-width: 414px) {
-  .wrapper {
-    width: 90%;
-    margin: 0 auto;
-  }
-  .wrapper header {
-    height: 20rem;
-    width: 100%;
-    border: 1px solid red;
-  }
-}
 header {
   display: block;
   text-align: center;
@@ -54,4 +43,22 @@ header h1.intro {
 #main {
   background-color: white;
   color: black;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 3px 3px -1px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 2px 3px 3px -1px rgba(0, 0, 0, 0.35);
+  box-shadow: 2px 3px 3px -1px rgba(0, 0, 0, 0.35);
+}
+@media (min-width: 414px) {
+  #wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #wrapper header {
+    height: 20rem;
+    width: 100%;
+    border: 1px solid red;
+  }
+  #wrapper #main .mainHead {
+    display: none;
+  }
 }
