@@ -1,0 +1,20 @@
+body {
+  /* We had to use !important as we are using bootstrap */
+  background: #8001bf !important;
+  background: linear-gradient(5deg, #8001bf 0%, #9600e0 38%, #ab00ff 100%);
+}
+@media (max-width: 414px) {
+  .wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .wrapper header {
+    height: 20rem;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+  }
+}
