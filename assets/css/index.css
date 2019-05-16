@@ -1,66 +1,38 @@
-* {
-  font-family: 'Work Sans', sans-serif;
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  margin-left: -0.5rem;
 }
-body {
-  background-image: linear-gradient(to right, #9712bc, #9e11c5, #a50fce, #ac0dd8, #b30be1);
-  color: white;
-}
-body #wrapper {
-  width: 64em;
-  max-width: calc(100% - 4em);
-  margin: 0 auto;
-}
-header {
+/* Navbar links */
+#navbar a {
+  float: left;
   display: block;
-  padding-top: 1rem;
+  color: #f2f2f2;
   text-align: center;
-  padding-top: 3rem;
-  height: 20rem;
+  padding: 14px;
+  text-decoration: none;
+}
+/* Page content */
+.content {
+  padding: 16px;
+}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  bottom: 0;
   width: 100%;
-  border: 1px solid red;
 }
-header .icon.ion-plane.logo {
-  font-size: 40px;
-  width: 53px;
-  height: 53px;
-  padding: 0 10px;
-  background-color: white;
-  color: #9712bc;
-  padding: 5px;
-  border-radius: 50%;
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
 }
-header h1.intro {
-  padding-top: 1.3rem;
-  color: white;
-}
-#main {
-  background-color: white;
-  color: black;
-  border-radius: 5px;
-  -webkit-box-shadow: 2px 3px 3px -1px rgba(0, 0, 0, 0.35);
-  -moz-box-shadow: 2px 3px 3px -1px rgba(0, 0, 0, 0.35);
-  box-shadow: 2px 3px 3px -1px rgba(0, 0, 0, 0.35);
-}
-#main .mainHead {
+.tab {
   display: none;
 }
-#main .mainBody div.spotlight {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  padding: 1.5em;
+.active-tab {
+  display: inline;
 }
-#main .mainBody div.spotlight p {
-  padding-top: 1.5em;
-}
-#main .mainBody div .tripSs {
-  height: 15em;
-}
-.learnMoreBtn {
-  background-color: gray;
-  width: 200px;
-  height: 30px;
-  color: white;
-  border: none;
-  border-radius: 5px;
+.active {
+  background-color: #C53360;
 }
