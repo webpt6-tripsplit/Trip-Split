@@ -1,6 +1,9 @@
  #navbar {
     overflow: hidden;
     margin-left: -0.5rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
   }
   
   #navbar a {
@@ -12,19 +15,12 @@
     text-decoration: none;
   }
   
-  .content {
-    padding: 16px;
-  }
-  
   .sticky {
     position: fixed;
     bottom: 0;
     width: 100%;
   }
-  
-  .sticky + .content {
-    padding-top: 60px;
-  } 
+
 
   .tab {
       display: none;
@@ -35,5 +31,5 @@
   }
 
   #navbar a.active {
-    color: white;
+    color: @primaryColor;
   }

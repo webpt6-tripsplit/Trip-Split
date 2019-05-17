@@ -30,6 +30,9 @@ body {
 #navbar {
   overflow: hidden;
   margin-left: -0.5rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
 }
 #navbar a {
   float: left;
@@ -39,16 +42,10 @@ body {
   padding: 14px;
   text-decoration: none;
 }
-.content {
-  padding: 16px;
-}
 .sticky {
   position: fixed;
   bottom: 0;
   width: 100%;
-}
-.sticky + .content {
-  padding-top: 60px;
 }
 .tab {
   display: none;
@@ -57,5 +54,5 @@ body {
   display: inline;
 }
 #navbar a.active {
-  color: white;
+  color: #C53360;
 }
