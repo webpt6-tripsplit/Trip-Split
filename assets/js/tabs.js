@@ -22,8 +22,7 @@ class TabLink {
           
       this.tabElement.classList.add('active');
   
-       const cards = document.querySelectorAll('.card');
-      console.log(this.cards);    
+       const cards = document.querySelectorAll('.card');    
           
        
        cards.forEach( card => card.style.display = 'none');
