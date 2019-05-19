@@ -1,6 +1,5 @@
 #navbar {
   overflow: hidden;
-  margin-left: -0.5rem;
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -48,9 +47,12 @@ body {
 .content {
   text-align: center;
 }
+.screenshotModal .modal-body {
+  color: black !important;
+}
 body {
-  background-color: #C53360;
-  color: white;
+  background-color: #C53360 !important;
+  color: white !important;
 }
 .tabs {
   height: 47px;
