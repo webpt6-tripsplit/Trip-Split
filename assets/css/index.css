@@ -100,3 +100,11 @@ body {
 .aboutContent .team:last-child {
   padding-top: 2rem;
 }
+.features-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.features-top .features-top-img {
+  height: 20em;
+}
