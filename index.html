@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,66 +8,87 @@
   <title>Trip Split</title>
   <link rel="stylesheet" href="/assets/css/index.css">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 </head>
+
 <body>
-  
-<div id="navbar" class="sticky">
-  <a class="active tab" data-tab="div1" href="javascript:void(0)">Home</a>
-  <a class="tab" data-tab="div2" href="javascript:void(0)">Features</a>
-  <a class="tab" href="javascript:void(0)" data-tab="div3">Contact</a>
-  <a class="tab" href="about.html">About</a>
-</div>
-<header>
+
+  <div id="navbar" class="sticky">
+    <a class="active tab" data-tab="div1" href="javascript:void(0)">Home</a>
+    <a class="tab" data-tab="div2" href="javascript:void(0)">Features</a>
+    <a class="tab" href="javascript:void(0)" data-tab="div3">Contact</a>
+    <a class="tab" href="about.html">About</a>
+  </div>
+  <header>
     <img src="assets\imgs\logo finshed.PNG">
     <p>The easiest way to split the cost of your favorite ride-hailing app</p>
   </header>
 
-<div class="content">
-    <div class="card" data-tab="div1">  
+  <div class="content">
+    <div class="card" data-tab="div1" style="flex-direction:column;">
       <image class='homeImage' src=assets\imgs\home-ss.png></image>
       <h3>The future of travel</h3>
       <p>Are you tired of your friends failing to pay you back for that uber ride?</p>
       <p>Trip Split allows you to effortlessly split the cost of any ride. No more excuses from your friends. </p>
-      <p>Our easy to use app for both Android and IOS is compatible with every major ride-hailing service. Request payment with just a touch of a button. </p>
+      <p>Our easy to use app for both Android and IOS is compatible with every major ride-hailing service. Request
+        payment with just a touch of a button. </p>
       <h3>No cash? No problem</h3>
-      <p>Trip split accepts all debit/credit cards and has built in Android Pay and Apple Pay integration for seamless transactions. </p>
+      <p>Trip split accepts all debit/credit cards and has built in Android Pay and Apple Pay integration for seamless
+        transactions. </p>
       <h3>Designed by ride-hailing enthusiasts</h3>
-      <p>Here at Trip Split we've tried almost ever ride-hailing service and they all suffer from the same problem. One of us has to pay, and the other has to some how remember to make good on the promise of paying their share back (which almost never happens). That is why we developed Trip Split. </p></div>
-      
-  <div class="card" data-tab="div2" style="display:none;flex-direction:column;">
-      
-      <div class = 'features-top'>
-          <h1>Features</h1>
-          <h3>Custom Profiles</h3>
-          <img class = 'features-top-img' src ="assets\imgs\features-top-img.png">
-          <p>Trip Split allows you to create your own profile, which you can customize with a picture. All the trips that you make get saved to your profile so you can easily keep track of who owes you money.</p>
+      <p>Here at Trip Split we've tried almost ever ride-hailing service and they all suffer from the same problem. One
+        of us has to pay, and the other has to some how remember to make good on the promise of paying their share back
+        (which almost never happens). That is why we developed Trip Split. </p>
+    </div>
+
+    <div class="card" data-tab="div2" style="display:none;flex-direction:column;">
+
+      <div class='features-top'>
+        <h1>Features</h1>
+        <h3>Custom Profiles</h3>
+        <img class='features-top-img' src="assets\imgs\features-top-img.png">
+        <p>Trip Split allows you to create your own profile, which you can customize with a picture. All the trips that
+          you make get saved to your profile so you can easily keep track of who owes you money.</p>
       </div>
-  
-      <div class = 'features-second'>
-          <h3>Trips at a glance</h3>
-          <img class = 'features-second-img' src="assets\imgs\home-ss.png">
-          <p>All your trips are stored in one place, where you can check how much the trip cost, how many people you split the trip with and when the trip was. This allows you to save time on </p>
+
+      <div class='features-second'>
+        <h3>Trips at a glance</h3>
+        <img class='features-second-img' src="assets\imgs\home-ss.png">
+        <p>All your trips are stored in one place, where you can check how much the trip cost, how many people you split
+          the trip with and when the trip was. This allows you to save time on </p>
       </div>
       <div class="appStores">
-          <img class='googlePlay' src='assets\imgs\google-play-badge.png';>
-          <img class='appleAppStore' src='assets\imgs\apple-app-store.svg';>
+        <img class='googlePlay' src='assets\imgs\google-play-badge.png' ;>
+        <img class='appleAppStore' src='assets\imgs\apple-app-store.svg' ;>
       </div>
+    </div>
+    <div class="card" data-tab="div3" style="display:none;flex-direction: column;align-items: center;">
+      <h3>Contact Us to get more information!</h3>
+      <div class="contact form-group">
+        <form action="https://formspree.io/test@test.com" method="POST">
+          <label for="email">What is your email address?</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required placeholder="Enter email">
+          <small style="color:white;" id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          <label for="name">Mind if we get your name?</label>
+          <input type="text" class="form-control" id="name" placeholder="John Doe">
+          <label for="message">Send us a message!</label>
+          <textarea class="form-control" id="message" rows="3"></textarea>
+          <btn type="submit" class="btn btn-success">Send!</btn>
+        </form>
+      </div>
+    </div>
   </div>
-  <div class="card" data-tab="div3" style="display:none;">
-  
-  </div>
-</div>
 
 
-<!-- Modal -->
-<div class="modal fade" id="screenshotModal" role="dialog">
+  <!-- Modal -->
+  <div class="modal fade" id="screenshotModal" role="dialog">
     <div class="modal-dialog">
-    
+
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
@@ -80,12 +102,13 @@
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
-      
+
     </div>
   </div>
 
-<script src="assets/js/events.js"></script>
-<script src="assets/js/tabs.js"></script>
-<script src="assets/js/load.js"></script>
+  <script src="assets/js/events.js"></script>
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/load.js"></script>
 </body>
+
 </html>
