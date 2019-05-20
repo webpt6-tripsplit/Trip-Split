@@ -142,3 +142,20 @@ body {
 .features-second .features-second-img {
   height: 20em;
 }
+@media (min-width: 414px) {
+  .sticky {
+    position: fixed;
+    bottom: unset;
+    top: 0;
+    width: 100%;
+  }
+  #navbar {
+    margin-top: unset;
+  }
+  .content {
+    margin-bottom: unset;
+  }
+  header {
+    margin-top: 6rem;
+  }
+}
