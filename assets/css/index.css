@@ -50,6 +50,11 @@ body {
 .screenshotModal .modal-body {
   color: black !important;
 }
+.features-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 body {
   background-color: #C53360 !important;
   color: white !important;
@@ -107,4 +112,9 @@ body {
 }
 .features-top .features-top-img {
   height: 20em;
+}
+.features-second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
