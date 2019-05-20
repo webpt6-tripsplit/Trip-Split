@@ -46,6 +46,7 @@ body {
 }
 .content {
   text-align: center;
+  margin-bottom: 6rem;
 }
 .screenshotModal .modal-body {
   color: black !important;
