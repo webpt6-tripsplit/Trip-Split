@@ -50,6 +50,26 @@ body {
 .screenshotModal .modal-body {
   color: black !important;
 }
+.appStores {
+  display: flex;
+  justify-content: center;
+}
+.appStores:hover {
+  cursor: pointer;
+}
+.appStores .googlePlay {
+  height: 100px;
+  width: 15em;
+}
+.appStores .appleAppStore {
+  height: 100px;
+  width: 15em;
+}
+.features-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 body {
   background-color: #C53360 !important;
   color: white !important;
@@ -99,4 +119,21 @@ body {
 }
 .aboutContent .team:last-child {
   padding-top: 2rem;
+}
+.features-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.25em;
+}
+.features-top .features-top-img {
+  height: 20em;
+}
+.features-second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.features-second .features-second-img {
+  height: 20em;
 }
