@@ -1,40 +1,50 @@
-
-
 body {
-    background: #C53360;
+    background : #C53360;
     font-family: 'Work Sans', sans-serif;
 }
 
 .homeImage {
-    height: 27.5em;
-    display: block;
-    margin-left: auto;
+    height      : 27.5em;
+    display     : block;
+    margin-left : auto;
     margin-right: auto;
 }
 
 .content {
-    text-align: center;
+    text-align   : center;
+    margin-bottom: 6rem;
+    padding      : 16px;
 }
 
-.screenshotModal {
+#screenshotModal {
     .modal-body {
         color: black !important;
     }
 }
 
-.appStores{
-    display: flex;
+.appStores {
+    display        : flex;
     justify-content: center;
-    &:hover{
+
+    &:hover {
         cursor: pointer;
     }
 
     .googlePlay {
-     height:100px;
-     width: 15em;
-    }
-    .appleAppStore{
         height: 100px;
-        width: 15em;
+        width : 15em;
+    }
+
+    .appleAppStore {
+        height: 100px;
+        width : 15em;
     }
 }
+
+
+div.contact form * {
+    margin-top: 0.7rem;
+}
+
+
+

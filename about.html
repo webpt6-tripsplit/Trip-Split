@@ -10,11 +10,20 @@
 </head>
 <body>
   
+  <style>
+    #navbar {
+      margin-left: -0.5rem;
+    }
+    </style>
+
 <div id="navbar" class="sticky">
+    <img class="logoHead" src="assets/imgs/logo.PNG" style="height:100%;">
+    <div class="navItems">
     <a class="tab" data-tab="div1" href="index.html">Home</a>
     <a class="tab" data-tab="div2" href="features.html">Features</a>
     <a class="tab" href="index.html?tab=tab3" data-tab="div3">Contact</a>
     <a class="tab active" href="#">About</a>
+  </div>
 </div>
 
 <div class="aboutContent">
@@ -23,18 +32,19 @@
       <img src="assets/imgs/Ashlee.png">
       <p>Ashlee Ryan</p>
       <p>Front End Developer</p>
-      <a href="#"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/ashryan"><i class="fab fa-github-square"></i></a>
+      <a href="#"><i class="social fab fa-linkedin ashlee"></i></a>
+      <a href="#"><i class="social fab fa-github-square ashlee"></i></a>
     </div>
     <div class="team">
         <img src="assets/imgs/Daniel.png">
         <p>Daniel Sockness</p>
         <p>Front End Developer</p>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/daniel-sockness"><i class="fab fa-github-square"></i></a>
+        <a href="#"><i class="social fab fa-linkedin daniel"></i></a>
+        <a href="#"><i class="social fab fa-github-square daniel"></i></a>
       </div>
 </div>
 
 <script src="assets/js/tabs.js"></script>
+<script src="assets/js/socials.js"></script>
 </body>
 </html>
