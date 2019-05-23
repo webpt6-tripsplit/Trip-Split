@@ -78,9 +78,6 @@ body {
 div.contact form * {
   margin-top: 0.7rem;
 }
-.screenshot {
-  cursor: pointer;
-}
 .features-flex {
   display: flex;
   flex-direction: column;
@@ -236,4 +233,11 @@ header {
 .aboutContent {
   margin-bottom: unset;
   margin-top: 6rem;
+}
+.img-responsive {
+  width: 15rem;
+  margin: 0 auto;
+}
+.screenshot {
+  cursor: pointer;
 }
