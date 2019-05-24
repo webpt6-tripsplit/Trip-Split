@@ -13,13 +13,13 @@ class Social {
                 if(e.srcElement.classList[2] == 'fa-linkedin') {
                     window.open('https://www.linkedin.com/in/ashlee-ryan-22b441142/')
                 } else {
-                    // Goto Github
+                    window.open('https://github.com/orgs/webpt6-tripsplit/people/ashryan/')
                 }
             } else {
                 if(e.srcElement.classList[2] == 'fa-linkedin') {
                     window.open('https://www.linkedin.com/in/daniel-sockness-607371124/')
                 } else {
-                    // Goto Github
+                    window.open('https://github.com/orgs/webpt6-tripsplit/people/daniel-sockness/')
                 }
             }
     }
